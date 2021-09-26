@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+  <!-- 
+    Buenas Jony!!
+    Soy Tomas Soiffer
+    El reto lo hice solo por que manejo horarios medios acotados con el laburo y no quiero condicionar a nadie
+    
+    Intente hacer lo mas que pude pero se que en el diseño estoy en falta
+
+    cada reto esta mas picante, muy manija de ver el que venga con React!!!
+    Gracias por tanto y perdon por tan poco!
+  -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hojas de estilo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Compras Tomas Soiffer</title>
+    <meta name="theme-color" content="#000000"> 
+    <link rel="icon" type="image/jpg" href="imagenes/polo.png">
+    <meta name="description" content="Vestite con todo el rock y el js">
+    <meta name="Keywords" content="rock, ropa, joyas, electronica">
+    <meta name="author" content="Tomas Soiffer">
+    <meta name="copyright" content="Tomas Soiffer">
+  
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@tomassoiffer" />
+    <meta name="twitter:title" content="Tomas Soiffer">
+    <meta name="twitter:description" content="Vestite con todo el rock y el js">
+    <meta name="twitter:image" content="https://summerhackreto5.web.app/imagenes/polo.png" />
+  
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Compras Tomas Soiffer"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://summerhackreto5.web.app/">
+    <meta property="og:image" content="imagenes/polo.png"/>
+    <meta property="og:description" content="Vestite con todo el rock y el js"/>
+    <meta property="og:site_name" content="Compras Tomas Soiffer">
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="logo" src="imagenes/polo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="listado.html" id="hombre2">Ropa de Hombre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listado.html" id="joyas2">joyería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listado.html" id="electronica2">Electrónica </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listado.html" id="mujer2">Ropa De Mujer</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      <a href="carrito.html" id=""> <img class="carro" src="imagenes/carrito-de-compras.svg" alt="">  <strong><sup id="elementosEnCarro"></sup></strong> </a>
+    </nav>
+  </header>
+  <section class="container" id="pantalla1">
+    <div class="preloader"></div>
+
+  </section>
+  <section class="container" id="pantalla2">
+    <div id="productoDestacado">
+      <h1>Producto Destacado</h1>
+
+    </div>
+    <div class="row" id="categorias">
+      <h1>Categorias</h1>
+    </div>
+    <a href="carrito.html" id="agregarProducto"><button type="button" class="btn btn-warning" ><p>Se sumo un elemento al carro</p></button></a>
+  </section>
+
+  <footer class="container">
+    <p><small> Tomas Soiffer</small></p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="main.js">  </script>
+</body>
+</html>

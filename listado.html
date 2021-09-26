@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras DevRock</title>
+    <meta name="theme-color" content="#000000"> 
+    <link rel="icon" type="image/jpg" href="imagenes/polo.png">
+    <meta name="description" content="Vestite con todo el rock y el js">
+    <meta name="Keywords" content="rock, ropa, joyas, electronica">
+    <meta name="author" content="Tomas Soiffer">
+    <meta name="copyright" content="Escuela DevRock">
+
+    <!-- Hojas de estilo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="imagenes/polo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="listado.html" id="hombre2">Ropa de Hombre</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="listado.html" id="joyas2">joyería</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="listado.html" id="electronica2">Electrónica </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="listado.html" id="mujer2">Ropa De Mujer</a>
+                </li>
+            </ul>
+            
+            </div>
+        </div>
+        <a href="carrito.html" id=""> <img class="carro" src="imagenes/carrito-de-compras.svg" alt="">  <strong><sup id="elementosEnCarro"></sup></strong> </a>
+        </nav>
+    </header>
+    <section class="container" id="pantalla1">
+        <div class="preloader"></div>
+    
+      </section>
+      <section class="container" id="pantalla2">
+        <h1 id="tituloListado"></h1>
+        <div id="listado" class="row"></div>
+
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modal-body">
+            
+            </div>
+            <div class="modal-footer" id="modal-footer">
+
+            </div>
+        </div>
+        </div>
+    </div>
+    <a href="carrito.html" id="agregarProducto"><button type="button" class="btn btn-warning" ><p>Se sumo un elemento al carro</p></button></a>
+    </section>
+    <footer class="container">
+        <p><small> copyright SummeHack</small></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="listado.js">  </script>
+</body>
+</html>

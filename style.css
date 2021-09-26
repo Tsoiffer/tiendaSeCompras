@@ -1,0 +1,202 @@
+body {
+	background-color: rgb(180, 180, 180);
+}
+header img {
+	height: 5vh;
+	padding: 0;
+	margin-top: 0;
+	top: 15px;
+	display: block;
+	position: absolute;
+}
+
+.centenedorNav {
+	margin-left: 200px;
+}
+header div button {
+	margin-right: 70px;
+}
+header sup {
+	top: 20px;
+	right: 20px;
+	display: block;
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+}
+#navbarTogglerDemo01 {
+	margin-left: 50px;
+}
+.carro {
+	right: 35px;
+}
+.logo {
+	left: 35px;
+}
+
+#pantalla1 {
+	height: 100vh;
+	width: 100%;
+	background-color: cadetblue;
+}
+#pantalla2 {
+	width: 100%;
+	display: none;
+	background-color: rgb(180, 180, 180);
+	align-items: center;
+	text-align: center;
+	align-content: center;
+}
+#productoDestacado {
+	align-items: center;
+	text-align: center;
+	align-content: center;
+}
+#productoDestacado img {
+	height: 40vh;
+}
+.card {
+	min-height: 80vh;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+	align-items: center;
+}
+.card img {
+	height: 40vh;
+	width: 20vh;
+}
+.card-title {
+	min-height: 20vh;
+}
+.img-carrito {
+	height: 10vh;
+	width: 10vh;
+	border-radius: 50%;
+}
+#carrito li {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.div1Carrito {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.div2Carrito {
+	display: flex;
+	align-content: flex-end;
+}
+.div2Carrito p {
+	margin-right: 10px;
+}
+.div1Carrito p {
+	padding-top: 10px;
+	margin-left: 10px;
+}
+.divCarroVacio {
+	text-align: center;
+}
+.divCarroVacio h1 {
+	width: 100%;
+}
+button {
+	margin: 3px;
+}
+#agregarProducto {
+	border-radius: 25px;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 40px;
+	right: 5vw;
+	display: none;
+}
+#agregarProducto p {
+	margin: 0;
+}
+section {
+	margin-top: 2vh;
+	text-align: center;
+	min-height: 83vh;
+}
+
+.modal-footer div {
+	display: flex;
+	align-items: center;
+}
+.modal-footer div p {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.modal-body img {
+	height: 30vh;
+	width: 20vh;
+}
+.modal-body h5 {
+	min-height: 3vh;
+}
+.modal-body div {
+	min-height: 20vh;
+}
+.title-carrito {
+	max-width: 70%;
+}
+.div1Carrito {
+	width: 70%;
+}
+.productoDestacado {
+	margin-top: 3vh;
+	min-height: 40vh;
+}
+.productoDestacado img {
+	margin-top: 3vh;
+}
+.productoDestacado .card-title {
+	min-height: 3vh;
+}
+
+.preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	border: 15px solid #eee;
+	border-top: 15px solid #666;
+	border-radius: 50%;
+	animation-name: girar;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes girar {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+#pantalla1 {
+	align-self: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+	#carrito li {
+		justify-content: center;
+		text-align: center;
+	}
+	#carrito li div {
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+	}
+}
